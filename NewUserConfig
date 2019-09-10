@@ -1,11 +1,3 @@
-## IMPORTANT NOTES ##########################################################
-# For User to run the script they must be part of the SG "SG-ADUserScript"  #
-#                                                                           #
-# Being in this group delegates access to the following SMB share where the #                 
-#                                                                           #
-#############################################################################
-
-
 #########THE FORM############################################
 #                                                           #
   Add-Type -AssemblyName System.Windows.Forms               #
