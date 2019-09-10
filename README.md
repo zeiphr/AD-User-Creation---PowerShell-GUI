@@ -1,4 +1,4 @@
-#AD User Creation - PowerShell-GUI
+AD User Creation - PowerShell-GUI
 
 Here it is, my very first powershell GUI script. I understand that it's not perfect and there are improvements that could be made, however please keep in mind it is a work in progress that I will try and update when worked on. Commnents and critiquing are most welcome.
 
