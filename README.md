@@ -1,7 +1,9 @@
-AD User Creation - PowerShell-GUI
+AD User Creation - PowerShell GUI
 
-Here it is, my very first powershell GUI script. I understand that it's not perfect and there are improvements that could be made, however please keep in mind it is a work in progress that I will try and update when worked on. Commnents and critiquing are most welcome.
+Introducing my first PowerShell GUI script designed to streamline the process of onboarding new users within the organization. While I acknowledge that there is room for improvement, please consider that this script is a work in progress, and I will continue to refine it. I welcome your comments and critiques.
 
-This powershell GUI was designed to help assist with onboarding new users into the orginisation, with the goal in mind to mitigate mistakes wherever possible. How I went about achieving this is to only make the admin user (Creator) type custom values into the system once, rather than having to type them in multiple times into different freeform fields meaning there was more room for error.
+The primary objective of this PowerShell GUI is to minimize the potential for errors during the user creation process. To achieve this, I have implemented a system where the admin user (Creator) only needs to input custom values once. This eliminates the need to repetitively enter information into various freeform fields, reducing the likelihood of mistakes.
 
-The Script indexes items in AD to populate dropdown boxes in the GUI (this means that the script can take a while to load depending on how much you are indexing - 1 minute), this way they again have less room for error. It even creates both an on prem and O365 mailbox (Hybrid environment) at the same time as user creation. I created two buttons in the script so you can keep it open and only have to index fields once
+The script leverages Active Directory (AD) indexing to populate dropdown boxes within the GUI. This indexing process may take some time to complete, depending on the volume of data being indexed, typically around 1 minute. By doing so, we further mitigate the risk of errors in user data entry.
+
+Additionally, the script has the capability to create both on-premises and Office 365 mailboxes, making it especially valuable in a hybrid environment. To enhance usability, I have incorporated two buttons into the script, allowing users to keep it open and index fields just once, improving efficiency in user provisioning.
